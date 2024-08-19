@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import {IoArrowForward} from 'react-icons/io5'
 
 const About = () => {
   return (
@@ -9,6 +10,26 @@ const About = () => {
        <img className="md:h-80" src="" alt="About Image" />
        <ul>
         <div className="flex gap-3 py-4"></div>
+        <IoArrowForward size={30} className="mt-1" />
+        <span className="w-96">
+            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontend Developer</h1>
+            <p className="text-sm md:text-md leading-tight">Lorem ipsum dolor sit adicta impedit sint officia nihil iure fuga,unt.
+                 iure cumque eveniet, dolorum adipisci sit debitis consectetur voluptas!</p>
+        </span>
+        <div className="flex gap-3 py-4"></div>
+        <IoArrowForward size={30} className="mt-1" />
+        <span className="w-96">
+            <h1 className="text-xl md:text-2xl font-semibold leading-normal">Backend Developer</h1>
+            <p className="text-sm md:text-md leading-tight">Lorem ipsum dolor sit adicta impedit sint officia nihil iure fuga,unt.
+                 iure cumque eveniet, dolorum adipisci sit debitis consectetur voluptas!</p>
+        </span>
+        <div className="flex gap-3 py-4"></div>
+        <IoArrowForward size={30} className="mt-1" />
+        <span className="w-96">
+            <h1 className="text-xl md:text-2xl font-semibold leading-normal">FullStack Developer</h1>
+            <p className="text-sm md:text-md leading-tight">Lorem ipsum dolor sit adicta impedit sint officia nihil iure fuga,unt.
+                 iure cumque eveniet, dolorum adipisci sit debitis consectetur voluptas!</p>
+        </span>
        </ul>
       </div>
     </div>
