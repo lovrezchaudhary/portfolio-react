@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from 'react-icons/fa'
-import { faGoogle } from 'react-icons/fa'
+import { FaGoogle } from 'react-icons/fa'
 import { SiMongodb } from 'react-icons/si'
 import { RiNetflixFill } from '@remixicon/react'
 import { FaAmazon } from 'react-icons/fa'
@@ -34,7 +34,7 @@ const Experience = () => {
         </div>
         <div>
         <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <faGoogle color="#4285F4" size={50} />
+            <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
                 <h2 className="leading-tight ">Software Engineer, Google</h2>
                 <p className="text-sm leading-tight font-thin">Sept-2023 - Present</p>
